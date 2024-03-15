@@ -1,6 +1,6 @@
 
 ### load Joy's data (second step of cleaning)
-data2 <- read.csv("/Users/eswain7/Documents/Documents - ES’s MacBook Air/202401_MGT6203/Project/data_cleaned_stage2.csv")
+data2 <- read.csv("Code/Data_Cleaning_housing_data_ver2.R")
 
 # install libraries
 install.packages("tidyverse", repos = "http://cran.us.r-project.org")
@@ -63,6 +63,3 @@ data4 <- data4 %>% select(-c(ForLease, PropertyType))
 
 # order by close date
 data4 <- data4[order(data4$CloseDate),]
-
-# export to csv
-write.csv(data4, "/Users/eswain7/Documents/Documents - ES’s MacBook Air/202401_MGT6203/Project/Upload/20240314_cleaned_data")
