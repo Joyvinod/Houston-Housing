@@ -77,4 +77,5 @@ summary(model_forward_stepwise) # Adj R2 = 0.7149
 
 ## save data frame with CloseDate added back in
 data7 <- cbind(data_forward_stepwise_model, data6$CloseDate)
-write.csv(data7, ".../data7.csv")
+colnames(data7)[colnames(data7) == "data6$CloseDate"] <- "CloseDate"
+write.csv(data7, "/Users/eswain7/Documents/Documents - ES’s MacBook Air/202401_MGT6203/Project/data7.csv")
