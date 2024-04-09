@@ -9,7 +9,7 @@ library(caret)
 
 ## read in data with pca completed on cts variables (data6)
 
-data6 <- read.csv("/Users/eswain7/Documents/Documents - ES’s MacBook Air/202401_MGT6203/Project/data6.csv")
+data6 <- read.csv(".../data6.csv")
 data6 <- subset(data6, select = -X)
 
 ## Model just on continuous variables with PCA
@@ -75,4 +75,6 @@ model_forward_stepwise <- train(ClosePrice ~ ., data = data_forward_stepwise_mod
 print(model_forward_stepwise)
 summary(model_forward_stepwise) # Adj R2 = 0.7149
 
-
+## save data frame with CloseDate added back in
+data7 <- cbind(data_forward_stepwise_model, data6$CloseDate)
+write.csv(data7, ".../data7.csv")
