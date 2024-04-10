@@ -1,6 +1,6 @@
 
 
-##### I have taken Evans code and then added federal interest rate and inflation
+##### I have taken Evans code and then added federal interest rate and inflation.
 
 ### clear all
 rm(list = ls())
