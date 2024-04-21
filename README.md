@@ -43,7 +43,7 @@ The HAR data file was too large (> 25MB) to upload to github. This data was sour
 The seven Google Trends time series data can be found in the code folder. This data was sourced from https://trends.google.com/trends/.  
 
 -[time series for "HAR houses for sale"](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Data/2004-2024_US_har%20houses%20for%20sale.csv)  
--[time series for "HAR Houston"](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Data/2004-2024_US_har%20houston.csv)
+-[time series for "HAR Houston"](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Data/2004-2024_US_har%20houston.csv)  
 -[time series for "HAR Real Estate"](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Data/2004-2024_US_har%20real%20estate.csv)  
 -[time series for "houses for sale Houston"](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Data/2004-2024_US_houses%20for%20sale%20houston.csv)  
 -[time series for "Houston home prices"](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Data/2004-2024_US_houston%20home%20prices.csv)  
@@ -53,13 +53,13 @@ The seven Google Trends time series data can be found in the code folder. This d
 Data used for additional analysis can also be found in the code folder.
 
 [Federal interest rate data](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Data/Federalinterestrate.csv)  
-[M2 money supply data from FRED](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Data/m2_supply_fred.csv)  
+[M2 money supply data from FRED](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Data/m2_supply_fred.csv) - data sourced from [Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/series/M2SL)  
 [US Inflation data](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Data/usainflation.csv)
 
 ### C. HAR Data Cleaning (Final Report Section 2.2.1)
 
 ### D. Google Trends Data Cleaning (Final Report Section 2.2.2)
-The code for the cleaning of the Google Trends data and creation of Google Trends factors can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Code/20240317_google_trends_analysis.R) The analysis takes the seven Google Trends time series and outputs a data frame named "gtrends." 
+The code for the cleaning of the Google Trends data and creation of Google Trends factors can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Code/20240317_google_trends_analysis.R). The analysis takes the seven Google Trends time series and outputs a data frame named "gtrends." 
 
 ### E. Data Exploration re: correlation (Final Report Section 2.4)
 
@@ -72,9 +72,9 @@ The code for the cleaning of the Google Trends data and creation of Google Trend
 ### I. PCA-RegEx-Stepwise Model (Final Report Sections 2.5.3 and 3.4)
 The code for the regular expression analysis can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Code/20240407_data_cleaning_git.R). It takes the data frame "data_cleaned_stage2" from [Section C](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/edit/main/README.md#c-har-data-cleaning-final-report-section-221) as input and outputs a data frame "data5."
 
-The code for the PCA transformation can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Code/20240407_basic_pca_models_git.R) It takes the data frame "data5" from the Regular Expression analysis above as an input and outputs a data frame "data6."
+The code for the PCA transformation can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Code/20240407_basic_pca_models_git.R). It takes the data frame "data5" from the Regular Expression analysis above as an input and outputs a data frame "data6."
 
-The code for the forward stepwise variable selection can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Code/20240409_variable_selection_git.R) It takes the data frame "data6" from the PCA transformation above as an input and outputs a data frame "data7."
+The code for the forward stepwise variable selection can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Code/20240409_variable_selection_git.R). It takes the data frame "data6" from the PCA transformation above as an input and outputs a data frame "data7."
 
 ### J. Mean price prediction with Google Trends (Final Report Sections 2.6 and 3.5)
 The code for the mean monthly price prediction analysis can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Code/20240317_google_trends_analysis.R) at lines 122-176 as part of the larger analysis/conversion of Google Trends data.
