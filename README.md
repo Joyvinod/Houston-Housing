@@ -57,6 +57,7 @@ Data used for additional analysis can also be found in the code folder.
 [US Inflation data](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Data/usainflation.csv)
 
 ### C. HAR Data Cleaning (Final Report Section 2.2.1)
+The code for the initial cleaning of the housing data can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/main/Code/Data_Cleaning_housing_data_ver2.R) and the write up can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/main/Data/Joy%20Write%20up%20Data%20cleaning.docx)
 
 ### D. Google Trends Data Cleaning (Final Report Section 2.2.2)
 The code for the cleaning of the Google Trends data and creation of Google Trends factors can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Code/20240317_google_trends_analysis.R). The analysis takes the seven Google Trends time series and outputs a data frame named "gtrends." 
@@ -84,3 +85,4 @@ The code for measuring prediction performance increase to the PCA-RegEx-Stepewis
 
 ### L. Exploration of additional variables (Final Report Section 3.7)
 This analysis was done in two sepearate sections of code. The analysis of adding M2 money supply data and the resulting model can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Code/20240410_adding_m2_git.R) and takes "data9" from [Section K](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/edit/main/README.md#k-adding-google-trends-data-to-basline-model-final-report-sections-27-and-36) and the [M2 Money Supply data from FRED](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Data/m2_supply_fred.csv) as inputs.
+The additional variable analysis write up to explore Federal Interest rate, Inflation, and Money Supply can be found [here](hhttps://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/main/Other%20Resources/Additional%20analysis%20Joy.docx). The code for the inflation rate and the interest rate analysis can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/main/Code/Basic_PCA_code_added_inflation_interest.R) and the M2 money supply can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/main/Code/Basic_PCA_code_added_inflation_interest_M2.R)
