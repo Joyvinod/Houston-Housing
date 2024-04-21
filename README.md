@@ -60,7 +60,7 @@ Data used for additional analysis can also be found in the code folder.
 The code for the initial cleaning of the housing data can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/main/Code/Data_Cleaning_housing_data_ver2.R) and the write up can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/main/Data/Joy%20Write%20up%20Data%20cleaning.docx)
 
 ### D. Google Trends Data Cleaning (Final Report Section 2.2.2)
-The code for the cleaning of the Google Trends data and creation of Google Trends factors can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Code/20240317_google_trends_analysis.R). The analysis takes the seven Google Trends time series and outputs a data frame named "gtrends." 
+The code for the cleaning of the Google Trends data and creation of Google Trends factors can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Code/20240317_google_trends_analysis.R). The analysis takes the seven Google Trends time series as inputs and outputs a data frame named "gtrends." 
 
 ### E. Data Exploration re: correlation (Final Report Section 2.4)
 The code for data exploration and correlation can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/main/Code/Final%20Project_Marc.R)
