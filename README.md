@@ -7,7 +7,7 @@ Combining Disparate Approaches to Better Predict Future Residential Housing Pric
 ### Members
 |Name            |Email                |
 |:--------------:|:-------------------:|
-|Evan Swain      |eswain7@gatech.edu.  |
+|Evan Swain      |eswain7@gatech.edu   |
 |Joy Kakkanad    |jkakkanad3@gatech.edu|
 |Marc Presume    |mpresume3@gatech.edu |
 |Russell Dawkins |rdawkins6@gatech.edu |
