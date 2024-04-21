@@ -27,7 +27,7 @@ The table of contents is organized by the section numbers of our final report. F
 |        D        |      2.2.2      | [Google Trends Data Cleaning](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/edit/main/README.md#d-google-trends-data-cleaning-final-report-section-222)               |Evan Swain                  |eswain7@gatech.edu                        |
 |        E        |       2.4       | [Data Exploration re: correlation](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/edit/main/README.md#e-data-exploration-re-correlation-final-report-section-24)          |Evan Swain, Marc Presume & Russell Dawkins|eswain7@gatech.edu, mpresume3@gatech.edu & rdawkins6@gatech.edu|
 |        F        |    2.5.1/3.1    | [Lasso Regression](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/edit/main/README.md#f-lasso-regression-final-report-sections-251-and-31)                          |Russell Dawkins             |rdawkins6@gatech.edu                      |
-The code for Lasso regression can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/main/Code/lasso_and_pca.R) 
+
 |        G        |    2.5.2/3.2    | [Linear Regression](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/edit/main/README.md#g-linear-regression-final-report-sections-252-and-32)                         |Marc Presume                |mpresume3@gatech.edu                      |
 |        H        |       3.3       | [Principal Component Analysis](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/edit/main/README.md#h-principal-component-analysis-final-report-section-33)              |Russell Dawkins             |rdawkins6@gatech.edu                      |
 |        I        |    2.5.3/3.4    | [PCA-RegEx-Stepwise Model](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/edit/main/README.md#i-pca-regex-stepwise-model-final-report-sections-253-and-34)                  |Evan Swain                  |eswain7@gatech.edu                        |
@@ -66,7 +66,7 @@ The code for the cleaning of the Google Trends data and creation of Google Trend
 ### E. Data Exploration re: correlation (Final Report Section 2.4)
 The code for data exploration and correlation can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/main/Code/Final%20Project_Marc.R)
 ### F. Lasso Regression (Final Report Sections 2.5.1 and 3.1) 
-
+The code for Lasso regression can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/main/Code/lasso_and_pca.R) 
 ### G. Linear Regression (Final Report Sections 2.5.2 and 3.2)        
 The code for the Linear Regression model can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/main/Code/Final%20Project_Marc.R)
 ### H. Principal Component Analysis (Final Report Section 3.3)
