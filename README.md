@@ -62,11 +62,11 @@ Data used for additional analysis can also be found in the code folder.
 The code for the cleaning of the Google Trends data and creation of Google Trends factors can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Code/20240317_google_trends_analysis.R). The analysis takes the seven Google Trends time series and outputs a data frame named "gtrends." 
 
 ### E. Data Exploration re: correlation (Final Report Section 2.4)
-
+The code for data exploration and correlation can be found [here] (https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/main/Code/Final%20Project_Marc.R)
 ### F. Lasso Regression (Final Report Sections 2.5.1 and 3.1) 
 
 ### G. Linear Regression (Final Report Sections 2.5.2 and 3.2)        
-
+The code for the Linear Regression model can be found [here] (https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/main/Code/Final%20Project_Marc.R)
 ### H. Principal Component Analysis (Final Report Section 3.3)
 
 ### I. PCA-RegEx-Stepwise Model (Final Report Sections 2.5.3 and 3.4)
