@@ -69,7 +69,7 @@ The code for Lasso regression can be found [here](https://github.gatech.edu/MGT-
 ### G. Linear Regression (Final Report Sections 2.5.2 and 3.2)        
 The code for the Linear Regression model can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/main/Code/Final%20Project_Marc.R)
 ### H. Principal Component Analysis (Final Report Section 3.3)
-
+The code for the first Principle Component Analysis be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/main/Code/lasso_and_pca.R) 
 ### I. PCA-RegEx-Stepwise Model (Final Report Sections 2.5.3 and 3.4)
 The code for the regular expression analysis can be found [here](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Code/20240407_data_cleaning_git.R). It takes the data frame "data_cleaned_stage2" from [Section C](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/edit/main/README.md#c-har-data-cleaning-final-report-section-221) as input and outputs a data frame "data5."
 
