@@ -52,7 +52,7 @@ The seven Google Trends time series data can be found in the code folder. This d
  
 Data used for additional analysis can also be found in the code folder.
 
-[Federal interest rate data](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Data/Federalinterestrate.csv) - data sourced from [New York Fed](https://www.newyorkfed.org/markets/reference-rates/effr#:~:text=The%20New%20York%20Fed%20publishes,by%20the%20New%20York%20Fed![image](https://github.gatech.edu/storage/user/81918/files/ec699890-f2f7-47bc-b1ed-ff8ca8ad542f)  
+[Federal interest rate data](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Data/Federalinterestrate.csv) - data sourced from [New York Fed](https://www.newyorkfed.org/markets/reference-rates/effr#:~:text=The%20New%20York%20Fed%20publishes,by%20the%20New%20York%20Fed)  
 [M2 money supply data from FRED](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Data/m2_supply_fred.csv) - data sourced from [Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/series/M2SL)  
 [US Inflation data](https://github.gatech.edu/MGT-6203-Spring-2024-Canvas/Team-60/blob/4af1f9791ea4eafa03f35a5bf707eb1fe0726199/Data/usainflation.csv) - data sourced from [US Inflation Calculator](https://www.usinflationcalculator.com/inflation/current-inflation-rates) 
 
