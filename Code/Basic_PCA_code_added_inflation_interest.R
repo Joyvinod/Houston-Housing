@@ -1,6 +1,6 @@
 
 
-##### I have taken Evans code and then added federal interest rate and inflation.
+##### I have taken Evans code and then added federal interest rate and inflation
 
 ### clear all
 rm(list = ls())
@@ -129,3 +129,4 @@ model_pca_coefs <- as.data.frame(summary(model_pca)$coefficients)
 # restrict to p < 0.15
 model_pca_coefs_015 <- subset(model_pca_coefs, `Pr(>|t|)` < 0.15)
 model_pca_coefs_015 <- model_pca_coefs_015[order(model_pca_coefs_015$`Pr(>|t|)`), ]
+model_pca_coefs_015
